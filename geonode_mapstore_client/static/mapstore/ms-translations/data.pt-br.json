@@ -1,5 +1,5 @@
 {
-    "locale": "pt-PT",
+    "locale": "pt-BR",
     "messages": {
         "Language": "Idioma",
         "msgId0": "{name} tirou {numPhotos, plural, =0 {sem fotos} =1 {one photo} other {# fotos}} em {takenDate, date, long}.",
