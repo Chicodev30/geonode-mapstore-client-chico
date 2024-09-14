@@ -91,26 +91,34 @@
     ],
     "projectionDefs": [],
     "supportedLocales": {
-        "en": {
-            "code": "en-US",
-            "description": "English"
-        },
-        "it": {
-            "code": "it-IT",
-            "description": "Italiano"
-        },
-        "fr": {
-            "code": "fr-FR",
-            "description": "Français"
-        },
-        "de": {
-            "code": "de-DE",
-            "description": "Deutsch"
-        },
-        "es": {
-            "code": "es-ES",
-            "description": "Español"
-        }
+    "en": {
+        "code": "en-US",
+        "description": "English"
+    },
+    "it": {
+        "code": "it-IT",
+        "description": "Italiano"
+    },
+    "fr": {
+        "code": "fr-FR",
+        "description": "Français"
+    },
+    "de": {
+        "code": "de-DE",
+        "description": "Deutsch"
+    },
+    "es": {
+        "code": "es-ES",
+        "description": "Español"
+    },
+    "pt": {
+        "code": "pt-PT",
+        "description": "Português"
+    },
+    "pt-BR": {
+        "code": "pt-BR",
+        "description": "Português (Brasil)"
+     }
     },
     "mapType": {
         "defaultVisualizationMode": "2D",
