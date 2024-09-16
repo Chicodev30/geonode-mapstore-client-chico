@@ -89,7 +89,16 @@
             "path": "gnresource.selectedLayer"
         }
     ],
-    "projectionDefs": [],
+    "projectionDefs": [
+        {
+          "code": "EPSG:100018",
+          "proj4": "+proj=tmerc +lat_0=0 +lon_0=-51 +k=0.999995 +x_0=300000 +y_0=5000000 +datum=SIRGAS2000 +units=m +no_defs",
+          "extent": [200000, 4000000, 400000, 6000000],
+          "worldExtent": [-52, -31, -50, -29],
+          "axisOrientation": "enu",
+          "unit": "m"
+        }
+      ],
     "supportedLocales": {
     "en": {
         "code": "en-US",
