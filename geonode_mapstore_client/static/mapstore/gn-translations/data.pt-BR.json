@@ -93,6 +93,7 @@
             "clearFilters": "Limpar filtros",
             "categoriesPlaceholder": "Selecione categorias",
             "resourceTypes": "Tipos de recursos",
+            "reasourceType": "Tipos de recurso",
             "resourceTypesPlaceholder": "Selecione tipos de recursos",
             "keywords": "Palavras-chave",
             "keywordsPlaceholder": "Selecione palavras-chave",
@@ -243,10 +244,12 @@
             "legend": "Legenda",
             "nodeTooltipContent": "Conteúdo da dica de ferramenta",
             "nodeTooltipPlacement": "Posicionamento da dica de ferramenta",
+
             "zoomToLayer": "Zoom para a extensão da camada",
             "applyCurrentStyleToLayer": "Aplicar estilo atual à camada",
             "deleteCurrentStyle": "Excluir estilo atual",
             "createNewStyle": "Criar novo estilo",
+
             "createStyleTitle": "Adicionar novo estilo",
             "createStyleTitleInput": "Título:",
             "createStyleClose": "Fechar",
@@ -275,6 +278,7 @@
             "styleEditorCloseConfirm": "Sim, fechar",
             "metadataUpload": "Enviar Metadados",
             "styleUpload": "Enviar Estilo",
+
             "missingFiles": "Arquivos ausentes",
             "invalidUploadMessageError": "Erro",
             "invalidUploadMessageErrorTooltip": "O processo de envio falhou. Verifique a validade do arquivo e tente enviá-lo novamente",
@@ -291,10 +295,12 @@
             "unsupportedUrlServiceType": "Selecione um tipo de serviço",
             "remoteResourceURLPlaceholder": "URL do recurso...",
             "invalidRemoteUploadMessageErrorTooltip": "O processo de envio falhou. Verifique a validade da URL e tente enviá-la novamente",
+
             "uploadDataset": "Enviar um conjunto de dados",
             "dragAndDropFile": "Arraste e solte um arquivo para enviar",
             "filterPendingUploadDataset": "Filtrar envios pendentes por nome...",
             "filterNoMatchUploadDataset": "O filtro não corresponde a um envio pendente",
+            
             "filterPendingUploadDocument": "Filtrar envios por nome...",
             "filterNoMatchUploadDocument": "O filtro não corresponde a um envio",
             "uploadDocument": "Enviar um documento",
