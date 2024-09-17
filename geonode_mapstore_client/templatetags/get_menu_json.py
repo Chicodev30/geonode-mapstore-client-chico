@@ -36,7 +36,7 @@ def get_base_left_topbar_menu():
         {
             "type": "link",
             "href": "/catalogue/#/all",
-            "label": "Todos os Recursos",
+            "labelId": "gnhome.remoteServices",
         },
         {
             "type": "link",
