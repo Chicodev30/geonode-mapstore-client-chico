@@ -17,7 +17,7 @@ def _handle_single_item(menu_item):
     m_item = {}
     m_item["type"] = "link"
     m_item["href"] = menu_item.url
-    m_item["label"] = menu_item.title
+    m_item["label"] = _(menu_item.title)  # Traduzir o título do menu item
     if menu_item.blank_target:
         m_item["target"] = "_blank"
     return m_item
@@ -205,7 +205,7 @@ def get_menu_json(placeholder_name):
     for menu, menu_items in menus.items():
         if len(menu_items) > 1:
             m = {}
-            m["label"] = menu.title
+            m["label"] = _(menu.title)  # Traduzir o título do menu
             m["type"] = "dropdown"
             m["items"] = []
             for menu_item in menu_items:
