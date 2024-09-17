@@ -1,4 +1,3 @@
-from django.utils.translation import gettext as _
 from avatar.templatetags.avatar_tags import avatar_url
 from django import template
 from django.conf import settings
@@ -17,7 +16,7 @@ def _handle_single_item(menu_item):
     m_item = {}
     m_item["type"] = "link"
     m_item["href"] = menu_item.url
-    m_item["label"] = _(menu_item.title)  # Traduzir o título do menu item
+    m_item["label"] = menu_item.title
     if menu_item.blank_target:
         m_item["target"] = "_blank"
     return m_item
@@ -37,32 +36,32 @@ def get_base_left_topbar_menu():
         {
             "type": "link",
             "href": "/catalogue/#/all",
-            "label": _("All resources"),  # Traduzir label
+            "label": "All resources",
         },
         {
             "type": "link",
             "href": "/catalogue/#/datasets",
-            "label": _("Datasets"),  # Traduzir label
+            "label": "Datasets",
         },
         {
             "type": "link", 
             "href": "/catalogue/#/maps", 
-            "label": _("Maps"),  # Traduzir label
+            "label": "Maps"
         },
         {
             "type": "link",
             "href": "/catalogue/#/documents",
-            "label": _("Documents"),  # Traduzir label
+            "label": "Documents",
         },
         {
             "type": "link",
             "href": "/catalogue/#/geostories",
-            "label": _("GeoStories"),  # Traduzir label
+            "label": "GeoStories",
         },
         {
             "type": "link",
             "href": "/catalogue/#/dashboards",
-            "label": _("Dashboards"),  # Traduzir label
+            "label": "Dashboards",
         }
     ]
 
@@ -205,7 +204,7 @@ def get_menu_json(placeholder_name):
     for menu, menu_items in menus.items():
         if len(menu_items) > 1:
             m = {}
-            m["label"] = _(menu.title)  # Traduzir o título do menu
+            m["label"] = menu.title
             m["type"] = "dropdown"
             m["items"] = []
             for menu_item in menu_items:
