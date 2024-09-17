@@ -1,3 +1,4 @@
+from django.utils.translation import gettext as _
 from avatar.templatetags.avatar_tags import avatar_url
 from django import template
 from django.conf import settings
@@ -36,32 +37,32 @@ def get_base_left_topbar_menu():
         {
             "type": "link",
             "href": "/catalogue/#/all",
-            "label": "All resources",
+            "label": _("All resources"),  # Traduzir label
         },
         {
             "type": "link",
             "href": "/catalogue/#/datasets",
-            "label": "Datasets",
+            "label": _("Datasets"),  # Traduzir label
         },
         {
             "type": "link", 
             "href": "/catalogue/#/maps", 
-            "label": "Maps"
+            "label": _("Maps"),  # Traduzir label
         },
         {
             "type": "link",
             "href": "/catalogue/#/documents",
-            "label": "Documents",
+            "label": _("Documents"),  # Traduzir label
         },
         {
             "type": "link",
             "href": "/catalogue/#/geostories",
-            "label": "GeoStories",
+            "label": _("GeoStories"),  # Traduzir label
         },
         {
             "type": "link",
             "href": "/catalogue/#/dashboards",
-            "label": "Dashboards",
+            "label": _("Dashboards"),  # Traduzir label
         }
     ]
 
