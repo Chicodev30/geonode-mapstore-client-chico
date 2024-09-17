@@ -413,7 +413,8 @@
                 }
             },
             "allResources": "Todos os recursos",
-            "assets": "Ativos"
+            "assets": "Ativos",
+            "all Resources": "Todos os recursos"
         }
     }
 }
