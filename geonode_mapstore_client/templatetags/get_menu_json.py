@@ -38,6 +38,7 @@ def get_base_left_topbar_menu():
             "type": "link",
             "href": "/catalogue/#/all",
             "label": _("All resources"),
+            "labelId": "gnhome.allResources",
         },
         {
             "type": "link",
