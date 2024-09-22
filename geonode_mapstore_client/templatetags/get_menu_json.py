@@ -1,7 +1,6 @@
 from avatar.templatetags.avatar_tags import avatar_url
 from django import template
 from django.conf import settings
-from django.utils.translation import gettext as _
 from geonode.base.models import Configuration, Menu, MenuItem
 
 register = template.Library()
@@ -37,8 +36,8 @@ def get_base_left_topbar_menu():
         {
             "type": "link",
             "href": "/catalogue/#/all",
-            "label": _("All resources"),
-            "labelId": "gnhome.all",
+            "label": "All resources",
+            "labelId": "gnhome.allResources",
         },
         {
             "type": "link",
