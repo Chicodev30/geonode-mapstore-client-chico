@@ -36,8 +36,7 @@ def get_base_left_topbar_menu():
         {
             "type": "link",
             "href": "/catalogue/#/all",
-            "label": "All resources",
-            "labelId": "gnhome.allResources",
+            "label": "Todos os recursos",
         },
         {
             "type": "link",
@@ -92,12 +91,12 @@ def get_base_right_topbar_menu(context):
                 {
                     "type": "link",
                     "href": "/invitations/geonode-send-invite/",
-                    "label": "Invite users",
+                    "label": "convidar usuarios",
                 },
                 {
                     "type": "link",
                     "href": "/admin/people/profile/add/",
-                    "label": "Add user",
+                    "label": "Adicionar usuario",
                 }
                 if user.is_superuser
                 else None,
