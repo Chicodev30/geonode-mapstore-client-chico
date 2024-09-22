@@ -147,8 +147,7 @@
             "na": "N/D",
             "emptyFilterItems": "Sem itens para exibir",
             "loadingItems": "Carregando itens...",
-            "3dtiles": "3D Tiles",
-            "allResources": "Todos os recursos" 
+            "3dtiles": "3D Tiles"
         },
         "viewer": {
             "document": {
