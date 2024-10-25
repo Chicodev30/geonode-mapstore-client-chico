@@ -1,0 +1,48 @@
+Modificações no projeto:
+
+1)adicionado traduções pt-BR
+
+arquivo data.pt-BR.json para ambas as pastas abaixo, embora tenha o mesmo nome são arquivos diferentes
+a)geonode_mapstore_client\static\mapstore\gn-translations
+b)geonode_mapstore_client\static\mapstore\ms-translations
+
+2)modificação no arquivo: geonode_mapstore_client\static\mapstore\configs\localConfig.json
+
+a)original:
+ "supportedLocales": {
+        "en": {
+            "code": "en-US",
+            "description": "English"
+        },
+        "it": {
+            "code": "it-IT",
+            "description": "Italiano"
+        },
+        "fr": {
+            "code": "fr-FR",
+            "description": "Français"
+        },
+        "de": {
+            "code": "de-DE",
+            "description": "Deutsch"
+        },
+        "es": {
+            "code": "es-ES",
+            "description": "Español"
+        }
+    },
+
+modificado:
+
+"supportedLocales": {
+        "en": {
+            "code": "en-US",
+            "description": "English"
+        },
+        "pt-BR": {
+            "code": "pt-BR",
+            "description": "Português-Brasil"
+        }
+    },
+
+
